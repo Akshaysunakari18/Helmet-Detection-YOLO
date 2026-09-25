@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# YOLO training outputs
+runs/
+
+# Dataset
+dataset/
+train/
+valid/
+test/
+
+# YOLO pretrained model
+yolo11n.pt
+
+# Dataset cache
+*.cache
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.log
+
+# Roboflow generated files
+README.dataset.txt
+README.roboflow.txt
